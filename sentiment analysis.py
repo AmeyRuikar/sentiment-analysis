@@ -109,9 +109,9 @@ print(clf.score(text, [1], None))
 print(clf.predict(text))
 
 
-print "predicted:", logit.predict(text)
-print "decision: ",logit.decision_function(a)
-print "probability",logit.predict_proba(text)
+print ("predicted:", logit.predict(text))
+print ("decision: ",logit.decision_function(a))
+print ("probability",logit.predict_proba(text))
 
-print "params: ",logit.get_params(deep=True)
+print ("params: ",logit.get_params(deep=True))
 '''
